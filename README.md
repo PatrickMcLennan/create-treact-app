@@ -1,10 +1,4 @@
-<style>
-    h1 {
-        text-align: center;
-    }
-</style>
-
-# ->create-treact-app<-
+# create-treact-app
 
 An agnostic starter template for a Client-Side React application using TypeScript. Out of the box support includes:
 
