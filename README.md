@@ -1,4 +1,10 @@
-# create-treact-app
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
+
+# ->create-treact-app<-
 
 An agnostic starter template for a Client-Side React application using TypeScript. Out of the box support includes:
 
@@ -14,7 +20,7 @@ Using `create-treact-app` will allow you to build a performant app that is minif
 | How Do I...             | ...by running this     |
 | ----------------------- | ---------------------- |
 | Run a dev server?       | `yarn start`           |
-| Run my Tests?           | `yarn test`            |
+| Run my tests?           | `yarn test`            |
 | Compile for production? | `yarn build`           |
 | Start Storybook?        | `yarn storybook`       |
 | Build Storybook?        | `yarn build-storybook` |
