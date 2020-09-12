@@ -1,0 +1,16 @@
+.css-test {
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    color: royalblue;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+  }
+}
+
+input {
+  &::placeholder {
+    // This should be prefixed
+    color: red;
+  }
+}
