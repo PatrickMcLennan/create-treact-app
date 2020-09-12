@@ -4,6 +4,7 @@
     "outDir": "build/dist",
     "module": "esnext",
     "target": "es5",
+    "esModuleInterop": true,
     "lib": ["es6", "dom", "esnext.asynciterable"],
     "sourceMap": true,
     "allowJs": true,
@@ -19,5 +20,5 @@
     "noUnusedLocals": true,
     "skipLibCheck": true
   },
-  "exclude": ["node_modules", "build", "scripts", "acceptance-tests", "webpack", "jest", "src/setupTests.ts"]
+  "exclude": ["node_modules", "dist", "webpack", "jest"]
 }
