@@ -13,6 +13,10 @@ module.exports = {
         exclude: /(node_modules)/,
         use: `swc-loader`,
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: "file-loader",
+      },
     ],
   },
   plugins: [new Dotenv()],

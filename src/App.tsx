@@ -4,6 +4,8 @@ import { GlobalStyle, theme } from "./styles/resets.style";
 
 import "./styles/test.scss";
 
+import testImage from "./assets/test-image.jpeg";
+
 export function App(): JSX.Element {
   const [state, setState] = useState(0);
   return (
@@ -15,6 +17,7 @@ export function App(): JSX.Element {
           <button data-testid="button" onClick={() => setState((prevState) => (prevState += 1))}>
             {state}
           </button>
+          <img src={testImage} alt="test image" />
         </div>
       </ThemeProvider>
     </>
