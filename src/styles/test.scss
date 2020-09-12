@@ -6,6 +6,13 @@
     margin-top: 50vh;
     transform: translateY(-50%);
   }
+
+  button {
+    display: block;
+    padding: 5px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+  }
 }
 
 input {
