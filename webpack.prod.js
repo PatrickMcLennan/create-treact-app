@@ -56,7 +56,7 @@ module.exports = merge(common, {
           chunks: `all`,
         },
         jsCss: {
-          test: "*.test.ts",
+          test: "*.styles.ts",
           name: `jsCss`,
           chunks: `all`,
         },
